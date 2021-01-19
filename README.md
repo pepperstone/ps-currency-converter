@@ -1,7 +1,5 @@
 # currency-converter
 
-Sc
-
 ## Getting Started
 
 ### Online

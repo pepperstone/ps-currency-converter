@@ -8,7 +8,7 @@ const api = ({ endpoint, params = {} }) => {
   return fetch(`${BASE_URL}/${endpoint}?${queryString}`);
 };
 
-export const fetchRates = async (baseCurrency = 'AUD') => {
+export const fetchRates = async (baseCurrency) => {
   try {
     const response = await api({ endpoint: 'latest', params: { base: baseCurrency } });
     const responseText = await response.text();

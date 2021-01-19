@@ -1,5 +1,6 @@
 import qs from 'querystring';
 
+// https://exchangeratesapi.io/
 const BASE_URL = 'https://api.exchangeratesapi.io';
 
 const api = ({ endpoint, params = {} }) => {

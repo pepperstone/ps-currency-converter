@@ -34,12 +34,13 @@ You have been tasked with building a simple currency converter app as per the be
 
 The user can enter a query into the input, e.g. 1 AUD to USD, and the app will display the converted amount.
 
-The foundations of the app layout and exchange rate API integration are provided for you. You can reuse what is already there or create your own.
+The foundations of the app and exchange rate API integration are provided for you. You can reuse what is already there or create your own.
 
 ### Requested Features
 
 - Display the converted amount based on the exchange rate
 - Display errors related to user input or from the exchange rate API
+- User input does not have to be case sensitive
 - Allow the displayed converted amount to be swapped
 - Display a history of previous converted amounts
 

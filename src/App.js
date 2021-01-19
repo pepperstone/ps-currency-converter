@@ -19,7 +19,6 @@ const App = () => {
     <div className="app">
       <div className="app__content">
         <Header />
-        {/* TODO: add input, output, error message etc */}
         <button onClick={handleSubmit}>get rates</button>
       </div>
     </div>
